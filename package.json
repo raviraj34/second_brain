@@ -1,0 +1,27 @@
+{
+  "name": "second-brain",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "raviraj",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "nodemon dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.1",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.96",
+    "add": "^2.0.6"
+  }
+}
